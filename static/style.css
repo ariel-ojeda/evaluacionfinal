@@ -1,0 +1,103 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezados principales */
+h1 {
+    color: #333; /* Texto oscuro */
+    margin-top: 20px;
+}
+
+/* Botones del Menú Principal */
+button {
+    background-color: #7d2181; /* Azul */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button2 {
+    background-color: #bfff00; /* Azul */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4e0041; /* Azul más oscuro */
+}
+
+/* Contenedor del formulario */
+form {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 2px solid #0078d7; /* Borde azul */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto; /* Centrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Etiquetas de los campos */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botón de envío en formularios */
+button[type="submit"] {
+    background-color: #0078d7; /* Azul */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #005a9e; /* Azul más oscuro */
+}
+
+/* Mensajes en el Formulario 2 */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0078d7; /* Azul */
+}
+
+/* Mensajes de error */
+p.error {
+    color: red;
+    font-weight: bold;
+}
+
